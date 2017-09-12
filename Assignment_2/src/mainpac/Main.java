@@ -74,6 +74,7 @@ public class Main {
 		});
 		panel.add(close);
 	}
+	
 	//Components for panel assign_2
 	JLabel info; JLabel input_direct; JLabel erase_direct; JLabel output_direct;
 	JTextField inputstring;

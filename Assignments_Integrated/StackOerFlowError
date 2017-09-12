@@ -1,0 +1,4 @@
+However, with GUI programming, it's possible to generate indirect recursion. For example,
+ your app may be handling paint messages, and, whilst processing them,
+ it may call a function that causes the system to
+ send another paint message. Here you've not explicitly called yourself, but the OS/VM has done it for you.
