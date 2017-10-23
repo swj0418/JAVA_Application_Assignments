@@ -11,7 +11,6 @@ public class ShapeTest_2 {
 	public static void main(String[] ar)
 	{
 		in();
-		drawAll();
 	}
 	
 	public static void in()
